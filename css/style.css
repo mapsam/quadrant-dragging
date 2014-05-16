@@ -1,0 +1,47 @@
+/* your theme's styles */
+body {
+	padding:0;
+	margin:0;
+}
+
+section {
+	position:absolute;
+	width:50%;
+	height:50%;
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover;
+	background-position:center center;
+}
+#one {
+	top:0;
+	left:0;
+	background-image:url(../img/abacus.jpg);
+}
+#two {
+	top:0;
+	right:0;
+	background-image:url(../img/apple.jpg);
+}
+#three {
+	bottom:0;
+	left:0;
+	background-image:url(../img/donuts.jpg);
+}
+#four {
+	bottom:0;
+	right:0;
+	background-image:url(../img/guns.jpg);
+}
+#grab {
+	position:absolute;
+	left:50%;
+	top:50%;
+	width:10px;
+	height:10px;
+	margin-left:-5px;
+	margin-top:-5px;
+	background-color:#fff;
+	cursor:pointer;
+}
